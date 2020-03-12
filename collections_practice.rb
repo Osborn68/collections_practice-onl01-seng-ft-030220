@@ -12,3 +12,22 @@ def sort_array_char_count(array)
    left.length <=>  right.length
  end
  end
+ 
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+end
+
+def reverse_array(array)
+  array.reverse
+end
+
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = $!
+  end
+  
+def find_a(array)
+  array.find_all do |word|
+    word[0] == "a"
+  end
+  
