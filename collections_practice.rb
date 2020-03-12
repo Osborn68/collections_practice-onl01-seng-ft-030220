@@ -4,7 +4,7 @@ end
 
 def sort_array_desc(array)
   array.sort! {|x, y| y <=> x}
-puts numbers
+puts array
 end
 
 def sort_array_char_count(array)
